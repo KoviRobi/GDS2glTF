@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gds2gltf"
+version = "0.1.0"
+description = "GDS to glTF files converter script"
+authors = ["Maximo <maximo@balestrini.com.ar>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.24.3"
+gdspy = "^1.6.13"
+triangle = "^20230923"
+pygltflib = "^1.16.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
