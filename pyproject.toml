@@ -12,6 +12,8 @@ gdspy = "^1.6.13"
 triangle = "^20230923"
 pygltflib = "^1.16.2"
 
+[tool.poetry.scripts]
+gds2gltf = "gds2gltf:main"
 
 [build-system]
 requires = ["poetry-core"]
